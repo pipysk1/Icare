@@ -333,6 +333,7 @@ img {
 }
 
 .image {
+
   /* width: 7em; */
 }
 
@@ -392,6 +393,7 @@ img {
   color: #fff;
 }
 
+
 .nav-link.w--current {
   border-style: solid;
   border-width: 0px;
@@ -423,6 +425,8 @@ img {
 
 .header_image_wrapper {
   padding-right: 0px;
+  margin-top: 90px;
+  margin-left: 30%;
 }
 
 .header_content_wrapper {
@@ -4615,4 +4619,12 @@ img {
   font-weight: 600;
   font-style: normal;
   font-display: swap;
+}
+
+.policy {
+  margin: 0px 120px;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
