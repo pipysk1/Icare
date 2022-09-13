@@ -66,7 +66,6 @@ h5 {
 }
 
 p {
-  margin-bottom: 20px;
   font-size: 16px;
 }
 
@@ -571,9 +570,11 @@ img {
   -ms-flex-align: end;
   align-items: flex-end;
 }
+
 .form-undisplay {
   display: none !important;
 }
+
 .email-form-undisplay {
   display: none !important;
 }
@@ -756,6 +757,7 @@ img {
   margin-top: 85px;
   margin-left: 120px;
 }
+
 @media (max-width: 1024px) {
   .ask_form {
     margin-top: 0px;
@@ -789,7 +791,7 @@ img {
   margin-left: 120px;
   font-size: 16px;
   line-height: 27px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .heading-13 {
@@ -1528,9 +1530,11 @@ img {
 .form-2 {
   width: 100%;
 }
+
 .form-2-undisplay {
   display: none;
 }
+
 .form-2-display {
   width: 100%;
   display: block;
@@ -1731,13 +1735,11 @@ img {
   width: 48px;
   height: 48px;
   border-radius: 10px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#e6558a),
-    to(#8f2adf)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#e6558a),
+      to(#8f2adf));
   background-image: linear-gradient(180deg, #e6558a, #8f2adf);
 }
 
@@ -1757,13 +1759,11 @@ img {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#e6558a),
-    to(#8f2adf)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#e6558a),
+      to(#8f2adf));
   background-image: linear-gradient(180deg, #e6558a, #8f2adf);
 }
 
@@ -1791,7 +1791,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding-right:40px;
+  padding-right: 40px;
   padding-left: 40px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1909,6 +1909,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -1917,6 +1918,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   h1 {
     color: #244171;
     font-size: 56px;
@@ -2155,13 +2157,11 @@ img {
     max-width: 131px;
     margin-right: 16px;
     padding-right: 0px;
-    background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#e6558a),
-      to(#8f2adf)
-    );
+    background-image: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        from(#e6558a),
+        to(#8f2adf));
     background-image: linear-gradient(180deg, #e6558a, #8f2adf);
     font-weight: 500;
     text-decoration: none;
@@ -3250,6 +3250,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -3299,6 +3300,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -3307,6 +3309,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   .container {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -3581,9 +3584,11 @@ img {
   .form-2 {
     width: 100%;
   }
+
   .form-2-undisplay {
     display: none;
   }
+
   .form-2-display {
     width: 100%;
     display: block;
@@ -3704,6 +3709,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -3712,6 +3718,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   .flexcolwrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3751,6 +3758,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -3759,6 +3767,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   h1 {
     font-size: 35px;
     line-height: 38px;
@@ -4189,9 +4198,11 @@ img {
     -ms-flex: 1;
     flex: 1;
   }
+
   .form-2-undisplay {
     display: none;
   }
+
   .form-2-display {
     width: 100%;
     display: block;
@@ -4456,6 +4467,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -4464,6 +4476,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   #w-node-_05671d05-77be-f6b4-b197-673099a66996-6e431e61 {
     -ms-grid-column-align: center;
     justify-self: center;
@@ -4505,6 +4518,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -4513,6 +4527,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   #w-node-ded3bac3-6b6e-b757-eea6-d03f2a4118b2-6e431e61 {
     -ms-grid-column-align: center;
     justify-self: center;
@@ -4526,6 +4541,7 @@ img {
     background-color: hsla(0, 0%, 86.7%, 0);
     padding: 45px 10px 45px 10px;
   }
+
   .success-message-2-display {
     display: block;
     background-color: #dcd8d8 !important;
@@ -4534,6 +4550,7 @@ img {
     margin-left: 120px;
     margin-right: 120px;
   }
+
   #w-node-_05671d05-77be-f6b4-b197-673099a66996-6e431e61 {
     -ms-grid-column-align: center;
     justify-self: center;
@@ -4591,6 +4608,7 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Svn poppins";
   src: url("../fonts/SVN-Poppins-Medium.otf") format("opentype");
@@ -4598,6 +4616,7 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Svn poppins";
   src: url("../fonts/SVN-Poppins-Bold.otf") format("opentype"),
@@ -4606,10 +4625,19 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Svn poppins";
   src: url("../fonts/SVN-Poppins-SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
+}
+
+.policy {
+  margin: 0px 120px;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
