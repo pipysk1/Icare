@@ -375,7 +375,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #36f;
+  background: linear-gradient(180deg, #0E9594 0%, #127475 100%);
 }
 
 .nav-link {
