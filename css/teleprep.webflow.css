@@ -776,6 +776,7 @@ img {
 }
 
 .clinic_prep {
+  text-align: justify;
   height: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -792,6 +793,7 @@ img {
 }
 
 .clinic_para {
+  text-align: justify !important;
   margin-right: 120px;
   margin-bottom: 40px;
   margin-left: 120px;
@@ -1964,7 +1966,7 @@ img {
   }
 
   .image {
-    width: 8em;
+    /* width: 8em; */
     margin-top: 0px;
   }
 
@@ -2063,8 +2065,9 @@ img {
 
   .header_image {
     display: inline-block;
-    width: 940px;
-    height: 760px;
+    /* width: 940px; */
+    /* height: 760px; */
+    margin: 0 auto;
     text-align: left;
   }
 
@@ -2074,6 +2077,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin: 0 auto;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -2490,6 +2494,7 @@ img {
   }
 
   .clinic_prep {
+    text-align: justify;
     display: block;
     padding-top: 0px;
     padding-bottom: 120px;
@@ -2511,6 +2516,8 @@ img {
   }
 
   .clinic_para {
+  text-align: justify !important;
+
     display: block;
     margin-right: 160px;
     margin-bottom: 40px;
@@ -3464,6 +3471,7 @@ img {
   }
 
   .clinic_prep {
+    text-align: justify;
     padding-bottom: 40px;
   }
 
@@ -4004,6 +4012,7 @@ img {
   }
 
   .clinic_para {
+  text-align: justify !important;
     margin-right: 20px;
     margin-left: 20px;
     text-align: left;
