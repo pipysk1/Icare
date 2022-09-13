@@ -1,3 +1,10 @@
+body {
+  font-family: "Svn poppins", sans-serif;
+  color: #333;
+  font-size: 18px;
+  line-height: 29px;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -10,12 +17,7 @@
   grid-column-gap: 16px;
 }
 
-body {
-  font-family: "Svn poppins", sans-serif;
-  color: #333;
-  font-size: 18px;
-  line-height: 29px;
-}
+
 
 h1 {
   margin-top: 0px;
@@ -331,7 +333,7 @@ img {
 }
 
 .image {
-  width: 7em;
+  /* width: 7em; */
 }
 
 .container {
@@ -359,6 +361,7 @@ img {
 }
 
 .navbar {
+    height: 80px;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;

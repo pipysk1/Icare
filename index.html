@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>TelePrEP</title>
+    <title>ICare</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
 
@@ -14,11 +14,12 @@
     <link href="css/webflow.css" rel="stylesheet" type="text/css">
     <link href="css/teleprep.webflow.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/b8a749b5d3.js" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
     <script
         type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
-    <link href="images/logoHiv.png" rel="shortcut icon" type="image/x-icon">
-    <link href="images/logoHiv.png" rel="apple-touch-icon">
+    <link href="images/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/logo.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
@@ -54,10 +55,11 @@
     <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
         <div class="navbarsection wf-section">
             <div class="logo_nav">
-                <a href="#" class="brand w-nav-brand"><img src="images/TelePrEP.svg" loading="lazy" width="159" alt=""
+                <a href="#" class="brand w-nav-brand"><img src="images/logo.png" loading="lazy" width="auto" alt=""
                         class="image"></a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
-                    <a onclick="scrollToForm('#use_teleprep')" href="#" class="nav-link w-nav-link">Giới thiệu về App ICare</a>
+                    <a onclick="scrollToForm('#use_teleprep')" href="#" class="nav-link w-nav-link">Giới thiệu về App
+                        ICare</a>
                     <!-- <a onclick="scrollToForm('#ve-teleprep')" href="#" class="nav-link w-nav-link">Hỗ trợ</a> -->
                     <a onclick="scrollToForm('#hoi-dap')" href="#" class="nav-link w-nav-link">Hỗ trợ</a>
                     <a onclick="scrollToForm('#chon-phong-kham')" href="#" class="nav-link w-nav-link">Chính sách</a>
@@ -191,24 +193,24 @@
         <section id="page-2" class="_3_introduction">
             <h2 class="heading-title middle morespace">Sử dụng TelePrEP ngay hôm nay</h2>
             <div class="w-layout-grid grid-2">
-                <div id="w-node-_05671d05-77be-f6b4-b197-673099a66996-6e431e61" class="intro"><img
-                        src="images/intro_1.svg" loading="lazy" width="120" alt="" class="image-2">
+                <div id="w-node" class="intro"><img src="images/intro_1.svg" loading="lazy" width="120" alt=""
+                        class="image-2">
                     <div class="intro_text">Dự phòng HIV dễ dàng,<br>chất lượng</div>
                 </div>
-                <div id="w-node-_346b63a9-801f-d40c-dfd8-140ad231896c-6e431e61" class="intro _2"><img
-                        src="images/intro_2.svg" loading="lazy" width="120" alt="" class="image-2">
+                <div id="w-node" class="intro _2"><img src="images/intro_2.svg" loading="lazy" width="120" alt=""
+                        class="image-2">
                     <div class="intro_text">Dùng thuốc miễn phí (theo dự án)<br>hoặc có phí (thuốc thương mại)</div>
                 </div>
-                <div id="w-node-_9feb404e-40e0-1d43-6fb4-f9c4c06fba91-6e431e61" class="intro _3"><img
-                        src="images/intro_3.svg" loading="lazy" width="120" alt="" class="image-2">
+                <div id="w-node" class="intro _3"><img src="images/intro_3.svg" loading="lazy" width="120" alt=""
+                        class="image-2">
                     <div class="intro_text">Mọi thông tin và hình ảnh<br>được bảo mật</div>
                 </div>
             </div>
         </section>
         <div id="hoi-dap" class="faq_wrapper">
             <div class="w-layout-grid grid-3">
-                <div id="w-node-ded3bac3-6b6e-b757-eea6-d03f2a4118b2-6e431e61" class="ask_form">
-                    <h2 class="heading-title left fixed">Hỏi đáp về TelePrEP và PrEP</h2>
+                <div id="w-node" class="ask_form">
+                    <h2 class="heading-title left fixed">Hỗ trợ</h2>
                     <div class="form_faq w-form">
                         <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="form-2"
                             onsubmit="return onSubmitQuestion()">
@@ -241,77 +243,22 @@
                         </div>
                     </div>
                 </div>
-                <div id="w-node-c678f616-4d47-66ae-ce95-0f8f80634356-6e431e61" class="faq">
+                <div id="w-node" class="faq">
                     <div class="container-2 faq-container">
-                        <h2 class="heading-title left">Các thông tin thường gặp</h2>
+                        <h2 class="heading-title left">Câu hỏi thường gặp</h2>
                         <div class="faq-wrap">
                             <div class="faq-question">
                                 <div class="faq-plus-wrap">
                                     <div class="faq-plus-l"></div>
                                     <div class="faq-plus"></div>
                                 </div>
-                                <div class="faq-q-text">PrEP có hiệu quả như thế nào?</div>
+                                <div class="faq-q-text">Ứng dụng ICare được hỗ trợ trên thiết bị nào?</div>
                             </div>
                             <div class="faq-answer">
-                                <p class="faq-answer-text"><strong> PrEP </strong>có hiệu quả dự phòng lây nhiễm HIV rất
-                                    cao. Thử nghiệm
-                                    lâm sàng chứng minh<br>Sử dụng PrEP đúng có thể làm giảm nguy cơ nhiễm HIV đến</p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">Sử dụng PrEP thế nào là đúng?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text"><strong> PrEP cần uống đều đặn mỗi ngày. </strong>Để giúp bạn
-                                    không quên,
-                                    việc uống PrEP nên gắn với một thói quen hằng ngày của bạn, như đánh răng, hoặc đặt
-                                    chuông đồng hồ,
-                                    điện thoại để nhắc nhở.<strong><br>PrEP cần uống đều đặn hằng ngày vào bất cứ lúc
-                                        nào(sáng, chiều,
-                                        tối), trước hoặc sau khi ăn.<br>Nếu bạn quên uống một viên PrEP, hãy uống bù
-                                        ngay khi nhớ ra.
-                                    </strong>Đôi khi có thể dùng 2 viên PrEP một ngày vẫn an toàn. Tuy nhiên không được
-                                    dùng quá 2 viên
-                                    một ngày.<strong><br>PrEP chỉ đạt hiệu quả tối đa sau khi uống 7 ngày </strong>(đối
-                                    với dự phòng quan
-                                    hệ tình dục qua đường hậu môn) và sau khi uống 21 ngày (đối với dự phòng quan hệ
-                                    tình dục qua đường âm
-                                    đạo hoặc đường máu).</p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">PrEP có tác dụng phụ không?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text"><strong>PrEP rất an toàn, không có tác dụng phụ đối với 90%
-                                        người sử
-                                        dụng.<br>Chỉ khoảng 10% người sử dụng gặp một số tác dụng phụ nhẹ, thoáng qua
-                                        lúc đầu, </strong>như
-                                    tiêu chảy, buồn nôn, chán ăn, đau quặn bụng hoặc đầy hơi. Một số người có thể bị
-                                    chóng mặt hoặc đau
-                                    đầu. Các tác dụng phụ này thường nhẹ và kéo dài trong vòng vài ngày hay vài tuần,
-                                    nhưng thường không
-                                    quá 1 tháng mà không cần ngừng PrEP<strong><br>Một tỷ lệ rất nhỏ không thể dùng PrEP
-                                        vì họ có vấn đề
-                                        về thận. </strong>Xét nghiệm chức năng thận (độ thanh thải Creatinine) cần được
-                                    thực hiện khi bắt
-                                    đầu PrEP và sau mỗi 6 tháng dùng PrEP. Khoảng 1/200 người sử dụng phát hiện tăng
-                                    creatinine 1 lần,
-                                    nhưng trở lại bình thường ở lần xét nghiệm sau.<strong><br>Người dùng PrEP có chứa
-                                        TDF có thể làm giảm
-                                        nhẹ độ cứng của xương. </strong>PrEP có liên quan đến việc giảm nhẹ mật độ
-                                    khoáng xương trong 6
-                                    tháng đầu, và mật độ khoáng xương trở lại bình thường khi không sử dụng PrEP nữa.
+                                <p class="faq-answer-text">Ứng dụng di động <strong> ICare </strong>được hỗ trợ trên các
+                                    thiết bị android và iOS.
+                                    <br>Bạn có thể sử dụng các liên kết này để tải ứng dụng cho thiết bị của mình
+                                    <a>Android</a>, <a>iOS</a>
                                 </p>
                             </div>
                         </div>
@@ -321,18 +268,13 @@
                                     <div class="faq-plus-l"></div>
                                     <div class="faq-plus"></div>
                                 </div>
-                                <div class="faq-q-text">Khi nào có thể ngưng sử dụng PrEP ?</div>
+                                <div class="faq-q-text">ICare đang làm điều gì? </div>
                             </div>
                             <div class="faq-answer">
-                                <p class="faq-answer-text"><strong>Bạn có thể ngừng PrEP 28 ngày sau lần phơi nhiễm HIV
-                                        cuối cùng. Bạn
-                                        có thể ngừng PrEP nếu không còn nguy cơ lây nhiễm HIV nữa. </strong>Bạn không
-                                    còn nguy cơ lây nhiễm
-                                    HIV khi:<strong><br></strong>Quan hệ tình dục an toàn (luôn luôn sử dụng bao cao su
-                                    đúng cách bất cứ
-                                    khi nào quan hệ tình dục).<br>Không còn tham gia bán dâm nữa.<br>Bạn tình có HIV đã
-                                    được điều trị HIV
-                                    từ 6 tháng trở lên và có tải lượng vi-rút HIV ở ngưỡng ức chế, không phát hiện được.
+                                <p class="faq-answer-text"><strong> ICare </strong>
+                                    nỗ dựng xây dựng ứng dụng theo dõi lịch khám, thông tin về thời gian biết được thông
+                                    tin về lịch khám, hay bạn có thế thay đổi lịch khám ngay trên ứng dụng khi có việc
+                                    hay sự cố.
                                 </p>
                             </div>
                         </div>
@@ -342,19 +284,48 @@
                                     <div class="faq-plus-l"></div>
                                     <div class="faq-plus"></div>
                                 </div>
-                                <div class="faq-q-text">Vì sao cần xét nghiệm HIV trước khi sử dụng PrEP ?</div>
+                                <div class="faq-q-text">ICare có phải một bệnh viện, hay phòng khám không? </div>
                             </div>
                             <div class="faq-answer">
-                                <p class="faq-answer-text">Bạn cần xét nghiệm HIV trước khi bắt đầu PrEP hoặc khi tái sử
-                                    dụng PrEP sau
-                                    khi đã dừng một thời gian. Chỉ dùng PrEP khi kết quả xét nghiệm HIV âm tính. PrEP
-                                    không dùng để điều
-                                    trị người đã nhiễm HIV. Dùng PrEP ở những người đã nhiệm HIV có thể dẫn đến kháng
-                                    thuốc, làm hạn chế
-                                    hiệu quả điều trị sau này.</p>
+                                <p class="faq-answer-text"><strong>ICare </strong> là ứng dụng quản lý thông tin lịch
+                                    khám sức khỏe, kết nối người dùng đến với dịch vụ y tế - chăm sóc sức khỏe chất
+                                    lượng hiệu quả và đáng tin cậy.
+                                </p>
                             </div>
                         </div>
                         <div class="faq-wrap">
+                            <div class="faq-question">
+                                <div class="faq-plus-wrap">
+                                    <div class="faq-plus-l"></div>
+                                    <div class="faq-plus"></div>
+                                </div>
+                                <div class="faq-q-text">Mối quan hệ của ICare với các bệnh viện, phòng khám là gì?</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="faq-answer-text"><strong>ICare </strong>Đối tác hợp tác.<br><strong>ICare
+                                    </strong> hợp tác với các bệnh viện/phòng khám, cung cấp các thông tin về khám chữa
+                                    bệnh tại bệnh viện/phòng khám cho
+                                    người bệnh để người bệnh có thể dễ dàng lựa chọn bác sĩ phù hợp và đặt lịch nhanh
+                                    chóng.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-wrap">
+                            <div class="faq-question">
+                                <div class="faq-plus-wrap">
+                                    <div class="faq-plus-l"></div>
+                                    <div class="faq-plus"></div>
+                                </div>
+                                <div class="faq-q-text">Ứng dụng ICare có hỗ trợ đẩy thông báo không? </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="faq-answer-text">Có. Chúng tôi sẽ gửi thông báo nhắc nhở dùng thuốc cho bạn
+                                    mỗi ngày thông qua ứng dụng ICare <br>
+                                    Bạn có thể tắt hoặc bật thông báo đẩy từ mục cài đặt của ứng dụng di động.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <div class="faq-wrap">
                             <div class="faq-question">
                                 <div class="faq-plus-wrap">
                                     <div class="faq-plus-l"></div>
@@ -430,7 +401,7 @@
                                 <p class="faq-answer-text">Bạn có thể sử dụng PrEP trong suốt thời kỳ mang thai và cho
                                     con bú</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -460,8 +431,7 @@
                                             loading="lazy" alt=""></a>
                                 </div>
                             </div>
-                            <div id="w-node-_394a74a3-1f16-93f3-8c35-2d75acdbc9c9-6e431e61" class="clinic"><img
-                                    src="images/Rectangle-12.png" loading="lazy"
+                            <div id="w-node" class="clinic"><img src="images/Rectangle-12.png" loading="lazy"
                                     sizes="(max-width: 479px) 92vw, (max-width: 767px) 39vw, (max-width: 991px) 42vw, (max-width: 1919px) 28vw, 26vw"
                                     srcset="images/Rectangle-12-p-500.png 500w, images/Rectangle-12.png 533w" alt="">
                                 <h3 class="heading-17">Phòng khám số 2</h3>
@@ -543,8 +513,7 @@
                                             loading="lazy" alt=""></a>
                                 </div>
                             </div>
-                            <div id="w-node-_394a74a3-1f16-93f3-8c35-2d75acdbc9c9-6e431e61" class="clinic"><img
-                                    src="images/Rectangle-12.png" loading="lazy"
+                            <div id="w-node" class="clinic"><img src="images/Rectangle-12.png" loading="lazy"
                                     sizes="(max-width: 479px) 92vw, (max-width: 767px) 39vw, (max-width: 991px) 42vw, (max-width: 1919px) 28vw, 26vw"
                                     srcset="images/Rectangle-12-p-500.png 500w, images/Rectangle-12.png 533w" alt="">
                                 <h3 class="heading-17">Phòng khám số 2</h3>
@@ -621,8 +590,8 @@
                 <div class="w-slider-nav w-round"></div>
             </div>
         </section>
-        <div class="footer_banner">
-            <div id="w-node-_22754da6-01d0-947c-22d0-ac2c8aaca467-6e431e61" class="banner_content">
+        <!-- <div class="footer_banner">
+            <div id="w-node" class="banner_content">
                 <div>
                     <h2 class="heading-title colored">Đặt hẹn sử dụng TelePrEP</h2>
                     <p class="paragraph-6">Là hình thức cung cấp dịch vụ dự phòng HIV bằng thuốc PrEP online thân thiện,
@@ -635,8 +604,8 @@
                 </div>
             </div>
             <div class="banner_image"></div>
-        </div>
-        <div class="testimonial">
+        </div> -->
+        <!-- <div class="testimonial">
             <h2 class="heading-title middle">Khách hàng nói về chúng tôi</h2>
             <div class="testimonial_subtitle">Người dùng nói gì về dịch vụ TelePrEP</div>
             <div data-animation="slide" data-nav-spacing="8" data-duration="500" data-infinite="1"
@@ -644,7 +613,7 @@
                 <div class="mask-2 w-slider-mask">
                     <div class="slide w-slide">
                         <div class="testimonial_zone">
-                            <div id="w-node-c5673726-c1c3-25a9-dece-638ab52a051f-6e431e61" class="testimonial_profile">
+                            <div id="w-node" class="testimonial_profile">
                                 <img src="images/Testpic.png" loading="lazy" alt="" class="testimonial_img">
                                 <h4 class="testimonial_name">Nguyễn Văn B</h4>
                                 <div class="testimonial_city">Tp. Hồ Chí Minh</div>
@@ -654,7 +623,7 @@
                                     tận tình. Hãy sử
                                     dụng TelePrEP ngay hôm nay.</p>
                             </div>
-                            <div id="w-node-_14fd5438-b5f7-d4bd-0707-9ac0327dde16-6e431e61" class="testimonial_profile">
+                            <div id="w-node" class="testimonial_profile">
                                 <img src="images/Testpic.png" loading="lazy" alt="" class="testimonial_img">
                                 <h4 class="testimonial_name">Nguyễn Văn B</h4>
                                 <div class="testimonial_city">Tp. Hồ Chí Minh</div>
@@ -668,7 +637,7 @@
                     </div>
                     <div class="w-slide">
                         <div class="testimonial_zone">
-                            <div id="w-node-c92d58de-17c1-6e4f-ccfe-83003bab6b84-6e431e61" class="testimonial_profile">
+                            <div id="w-node" class="testimonial_profile">
                                 <img src="images/Testpic.png" loading="lazy" alt="" class="testimonial_img">
                                 <h4 class="testimonial_name">Nguyễn Văn B</h4>
                                 <div class="testimonial_city">Tp. Hồ Chí Minh</div>
@@ -678,7 +647,7 @@
                                     tận tình. Hãy sử
                                     dụng TelePrEP ngay hôm nay.</p>
                             </div>
-                            <div id="w-node-c92d58de-17c1-6e4f-ccfe-83003bab6b8c-6e431e61" class="testimonial_profile">
+                            <div id="w-node" class="testimonial_profile">
                                 <img src="images/Testpic.png" loading="lazy" alt="" class="testimonial_img">
                                 <h4 class="testimonial_name">Nguyễn Văn B</h4>
                                 <div class="testimonial_city">Tp. Hồ Chí Minh</div>
@@ -699,19 +668,19 @@
                 </div>
                 <div class="slide-nav w-slider-nav w-round"></div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="footer wf-section">
         <div class="container-3">
-            <div id='lien-he' class="footer-centre"><img src="images/TelePrEP.svg" width="185" alt="" class="logo">
+            <div id='lien-he' class="footer-centre"><img src="images/logo.png" alt="" class="logo">
                 <p class="paragraph-light">Địa chỉ: Lorem ipsum<br>Liên hệ kỹ thuật: 000 000 0000 -
                     info@loremipsum.vn<br>Liên
                     hệ tư vấn: 000 000 0000 - info@loremipsum.vn<br></p>
                 <div class="footer-link-wrap">
-                    <a href="#hoi-dap" class="nav-link w-nav-link">Hỏi đáp</a>
-                    <a href="#chon-phong-kham" class="nav-link w-nav-link">Chọn phòng khám</a>
+                    <a href="#hoi-dap" class="nav-link w-nav-link">Hỗ trợ</a>
+                    <a href="#chon-phong-kham" class="nav-link w-nav-link">Chính sách</a>
                     <a href="#lien-he" class="nav-link w-nav-link">Liên hệ</a>
-                    <a href="#ve-teleprep" class="nav-link w-nav-link">Về TelePrEP</a>
+                    <!-- <a href="#ve-teleprep" class="nav-link w-nav-link">Về TelePrEP</a> -->
                 </div>
                 <div class="footer-wrapper">
                     <a href="#" class="social-link w-inline-block"><img src="images/001-facebook.svg" alt=""></a>
