@@ -1614,6 +1614,7 @@ img {
 }
 
 .textarea-2 {
+  max-width: 645px;
   height: auto;
   border-style: solid;
   border-width: 1px;
@@ -4307,6 +4308,7 @@ img {
   }
 
   .textarea-2 {
+  max-width: 645px;
     margin-bottom: 0px;
   }
 
