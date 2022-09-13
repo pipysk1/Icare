@@ -477,8 +477,9 @@ img {
 }
 
 .heading-8 {
+  text-align: justify;
   display: block;
-  max-width: 50ch;
+  /* max-width: 50ch; */
   margin-top: 0px;
   margin-bottom: 40px;
   font-size: 17px;
@@ -681,7 +682,8 @@ img {
 }
 
 .paragraph-3 {
-  max-width: 50ch;
+  text-align: justify;
+  /* max-width: 50ch; */
   font-size: 16px;
   line-height: 28px;
 }
