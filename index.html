@@ -58,13 +58,17 @@
                 <a href="#" class="brand w-nav-brand"><img src="images/logo.png" loading="lazy" alt=""
                         class="image"></a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
-                    <a onclick="scrollToForm('#use_teleprep')" href="#" class="nav-link w-nav-link nav-header">Giới
-                        thiệu về App
-                        ICare</a>
-                    <!-- <a onclick="scrollToForm('#ve-teleprep')" href="#" class="nav-link w-nav-link">Hỗ trợ</a> -->
-                    <a onclick="scrollToForm('#hoi-dap')" href="#" class="nav-link w-nav-link">Hỗ trợ</a>
-                    <a onclick="scrollToForm('#chon-phong-kham')" href="#" class="nav-link w-nav-link">Chính sách</a>
-                    <!-- <a onclick="scrollToForm('#lien-he')" href="#" class="nav-link w-nav-link">Liên hệ</a> -->
+<!-- onclick="scrollToForm('#use_teleprep')"
+onclick="scrollToForm('#ve-teleprep')"
+onclick="scrollToForm('#hoi-dap')"
+onclick="scrollToForm('#chon-phong-kham')"
+onclick="scrollToForm('#lien-he')"
+-->
+                    <a  href="#use_teleprep" class="nav-link w-nav-link nav-header">Giới thiệu về App ICare</a>
+                    <a  href="#ve-teleprep" class="nav-link w-nav-link">ICARE</a>
+                    <a  href="#hoi-dap" class="nav-link w-nav-link">Hỗ trợ</a>
+                    <a  href="#chon-phong-kham" class="nav-link w-nav-link">Chính sách</a>
+                    <a  href="#lien-he" class="nav-link w-nav-link">Liên hệ</a>
 
                 </nav>
             </div>
@@ -103,59 +107,20 @@
             </div>
         </div>
 
-        <div class="make_an_appointment_box">
-            <div class="form_block tablet w-form">
-                <div id="email-form" class="form-container">
-                    <form name="email-form" data-name="Email Form" class="form" onsubmit="return openNewTab()">
-                        <div class="columns w-row">
-                            <div class="column-3 w-col w-col-8">
-                                <div class="address_form">
-                                    <select id="field1" name="field1" class="address_form_dropdown w-select"
-                                        onchange="Populate(this.id , 'field2')">
-                                        <option value="Chọn thành phố">Chọn thành phố</option>
-                                        <option value="hanoi">Hà Nội</option>
-                                        <option value="tphochiminh">TP Hồ Chí Minh</option>
-                                        <option value="dongnai">Đồng Nai</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="column-3 w-col w-col-8">
-                                <div class="address_form">
-                                    <select id="field2" name="field2" class="address_form_dropdown w-select">
-                                        <option value="">Chọn cơ sở y tế</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div id='use-teleprep' class="column-2 w-col w-col-4">
-
-                                <input type="submit" value="Sử dụng TelePrEP" data-wait="Please wait..."
-                                    class="submit-button w-button">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div id="notify-text" style="margin-left:35px"></div>
-
-                <div class="success-message-2 " id="success-message">
-                    <div class="text-block-8">Thông tin phản hồi đã được gửi đi và phòng khám sẽ phản hồi bạn sớm.</div>
-                </div>
-
-            </div>
-        </div>
+    
 
     </header>
     <div class="body wf-section">
         <section id="ve-teleprep" class="columns-4 w-row">
             <div class="column-11 w-col w-col-6 w-col-stack">
-                <div class="body_left_video"><img src="images/Left.png" loading="lazy"
-                        sizes="(max-width: 940px) 100vw, (max-width: 991px) 940px, (max-width: 1919px) 50vw, 940px"
-                        srcset="images/Left-p-500.png 500w, images/Left-p-800.png 800w, images/Left.png 940w" alt="">
+                <div class="body_left_video">
+                    <img src="images/Home.png" loading="lazy" alt="">
                 </div>
             </div>
             <div class="column-12 w-col w-col-6 w-col-stack">
                 <div class="body_right_text">
                     <div class="div-block-3">
-                        <h2 class="heading-title left">TELEPrEP là gì?</h2>
+                        <h2 class="heading-title left"><strong>ICare</strong> là gì?</h2>
                         <p class="paragraph-3 desktop">Là hình thức cung cấp dịch vụ dự phòng HIV bằng thuốc PrEP online
                             thân thiện,
                             bảo mật, hướng tới sự thuận tiện của khách hàng thông qua website này hoặc ứng dụng điện
@@ -330,83 +295,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">PrEP phòng tránh các bệnh lây qua đường tình dục?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text">PrEP không phòng ngừa được các bệnh lây nhiễm qua đường tình
-                                    dục khác ngoài
-                                    HIV, giang mai, lậu và chlamydia. Cần sử dụng bao cao su đúng cách mỗi lần quan hệ
-                                    tình dục để bảo vệ
-                                    bạn không mắc các lây nhiễm qua đường tình dục này.</p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">PrEP có tác dụng tránh thai không?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text">PrEP không có tác dụng tránh thai.Thuốc uống, thuốc tiêm hay
-                                    thuốc cấy tránh
-                                    thai nội tiết không thay đổi hiệu quả của thuốc PrEP, và PrEP cũng không làm giảm
-                                    hiệu quả của thuốc
-                                    tránh thai</p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">PrEP có tương tác với ma túy hay rượu không?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text">PrEP không có tương tác với ma túy hay rượu. Uống rượu hoặc
-                                    sử dụng ma túy,
-                                    như cocaien hoặc methamphetamine sẽ không làm giảm hiệu quả của PrEP</p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">Tôi có viêm gan B, liệu tôi có thể sử dụng PrEP không?</div>
-                            </div>
-                            <div class="faq-answer">
-                                <p class="faq-answer-text"><strong>Bạn cần xét nghiệm máu để biết mình có nhiễm vi-rút
-                                        viêm gan B hay
-                                        không.</strong> Nếu có vi-rút viêm gan B, bạn cần khám chuyên khoa để xác định
-                                    xem bạn có chỉ định
-                                    điều trị viêm gan B không. Nếu bạn không có chỉ định điều trị viêm gan B, thì bạn có
-                                    thể sử dụng PrEP
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-wrap">
-                            <div class="faq-question">
-                                <div class="faq-plus-wrap">
-                                    <div class="faq-plus-l"></div>
-                                    <div class="faq-plus"></div>
-                                </div>
-                                <div class="faq-q-text">Có thể sử dụng PrEP khi mang thai và cho con bú không ?</div>
-                            </div>
-                            <div class="faq-answer last">
-                                <p class="faq-answer-text">Bạn có thể sử dụng PrEP trong suốt thời kỳ mang thai và cho
-                                    con bú</p>
-                            </div>
-                        </div> -->
+
                     </div>
                 </div>
             </div>
@@ -845,22 +734,7 @@
                     mối quan hệ
                     giữa các chủ thể hoàn toàn độc lập, và
         </section>
-        <!-- <div class="footer_banner">
-            <div id="w-node" class="banner_content">
-                <div>
-                    <h2 class="heading-title colored">Đặt hẹn sử dụng TelePrEP</h2>
-                    <p class="paragraph-6">Là hình thức cung cấp dịch vụ dự phòng HIV bằng thuốc PrEP online thân thiện,
-                        bảo mật,
-                        hướng tới sự thuận tiện của khách hàng thông qua website này hoặc ứng dụng điện thoại. Dịch vụ
-                        TelePrEP tuân
-                        thủ hướng dẫn điều trị dự phòng lây nhiễm HIV bằng thuốc kháng virus của Bộ y tế.</p>
-                    <button type="button" href="#" class="button-2 w-button" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Bắt đầu</button>
-                </div>
-            </div>
-            <div class="banner_image"></div>
-        </div> -->
-        <!-- <div class="testimonial">
+      
             <h2 class="heading-title middle">Khách hàng nói về chúng tôi</h2>
             <div class="testimonial_subtitle">Người dùng nói gì về dịch vụ TelePrEP</div>
             <div data-animation="slide" data-nav-spacing="8" data-duration="500" data-infinite="1"
@@ -935,7 +809,6 @@
                     <a href="#hoi-dap" class="nav-link w-nav-link">Hỗ trợ</a>
                     <a href="#chon-phong-kham" class="nav-link w-nav-link">Chính sách</a>
                     <a href="#lien-he" class="nav-link w-nav-link">Liên hệ</a>
-                    <!-- <a href="#ve-teleprep" class="nav-link w-nav-link">Về TelePrEP</a> -->
                 </div>
                 <div class="footer-wrapper">
                     <a href="#" class="social-link w-inline-block"><img src="images/001-facebook.svg" alt=""></a>
@@ -959,17 +832,7 @@
                     </div>
 
                     <div class="modal-body">
-                        <!-- <p><b>PrEP cần uống đều đặn mỗi ngày.</b> Để giúp bạn không quên, việc uống PrEP nên gắn với một thói quen
-              hằng ngày của bạn, như đánh răng, hoặc đặt chuông đồng hồ, điện thoại để nhắc nhở.</p>
-            <p><b>PrEP cần uống đều đặn hằng ngày vào bất cứ lúc nào(sáng, chiều, tối), trước hoặc sau khi ăn.</b></p>
-            <p><b>Nếu bạn quên uống một viên PrEP, hãy uống bù ngay khi nhớ ra.</b>Đôi khi có thể dùng 2 viên PrEP một
-              ngày vẫn
-              an toàn. Tuy nhiên không được dùng quá 2 viên một ngày.</p>
-            <p><b> PrEP chỉ đạt hiệu quả tối đa sau khi uống 7 ngày</b> (đối với dự phòng quan hệ tình dục qua đường
-              hậu
-              môn)
-              <b> và sau khi uống 21 ngày</b> (đối với dự phòng quan hệ tình dục qua đường âm đạo hoặc đường máu).
-            </p> -->
+                     
                         <div class='button__information'>
                             <button type="button" class="btn btn-primary" onclick="showForm()">
                                 <div>Bạn chưa hiểu
@@ -1029,255 +892,273 @@
     </div>
 
 
-    </script>
-    <script>
-        $("#email-form-2").submit(function (e) {
-            e.preventDefault();
-        });
-        async function onSubmitQuestion(e) {
-            const value = {
-                displayName: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phoneNumber: document.getElementById('phone').value,
-                callingDate: new Date(Date.parse(document.getElementById('timeCallback').value)),
-                question: document.getElementById('QA').value,
-            }
-            const selectClinic = document.forms["email-form"]["field1"].value;
-            const selectSelectAddress = document.forms["email-form"]["field2"].value;
-            if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
-                document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
-                document.getElementById('dat-lich-kham').scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
-            }
-            else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
-                document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
-                document.getElementById('dat-lich-kham').scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
-            } else {
+   <!-- <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6120b498770f022059431e5d"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
 
-                $('.submit-p').remove()
-                $('#submit-form-1').append('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="loading"></span>')
-                $('#submit-form-1').attr('disabled', true)
-                await fetch(selectSelectAddress + '/public/api/guest-question/', {
-                    method: 'post',
-                    headers: new Headers({ 'content-type': 'application/json' }),
-                    body: JSON.stringify(value)
-                }).then((response) => {
-                    if (response.ok) {
-                        $('#loading').remove()
-                        $('#submit-form-1').append('<span>Gửi câu hỏi thành công</span>')
-                        $('#submit-form-1').attr('disabled', true)
-                        return response.json();
-                    } else {
-                        $('#loading').remove()
-                        $('#submit-form-1').append('<span>Có lỗi xảy ra</span>')
-                    }
-                })
-                    .then((responseJson) => {
-                        // Do something with the response
-                    })
-                    .catch((error) => {
-                        $('#loading').remove()
-                        $('#submit-form-1').append('<span>Có lỗi xảy ra</span>')
-                    });
-            }
+  </script>
+  <script>
+    $("#email-form-2").submit(function (e) {
+      e.preventDefault();
+    });
+    async function onSubmitQuestion(e) {
+      const value = {
+        displayName: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phoneNumber: document.getElementById('phone').value,
+        callingDate: new Date(Date.parse(document.getElementById('timeCallback').value)),
+        question: document.getElementById('QA').value,
+      }
+      const selectClinic = document.forms["email-form"]["field1"].value;
+      const selectSelectAddress = document.forms["email-form"]["field2"].value;
+      if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
+        document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
+        document.getElementById('dat-lich-kham').scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+      }
+      else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
+        document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
+        document.getElementById('dat-lich-kham').scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+      } else {
 
+        $('.submit-p').remove()
+        $('#submit-form-1').append('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="loading"></span>')
+        $('#submit-form-1').attr('disabled', true)
+        await fetch(selectSelectAddress + '/public/api/guest-question/', {
+          method: 'post',
+          headers: new Headers({ 'content-type': 'application/json' }),
+          body: JSON.stringify(value)
+        }).then((response) => {
+          if (response.ok) {
+            $('#loading').remove()
+            $('#submit-form-1').append('<span>Gửi câu hỏi thành công</span>')
+            $('#submit-form-1').attr('disabled', true)
+            return response.json();
+          } else {
+            $('#loading').remove()
+            $('#submit-form-1').append('<span>Có lỗi xảy ra</span>')
+          }
+        })
+          .then((responseJson) => {
+            // Do something with the response
+          })
+          .catch((error) => {
+            $('#loading').remove()
+            $('#submit-form-1').append('<span>Có lỗi xảy ra</span>')
+          });
+      }
+
+    }
+
+    config = {
+      enableTime: true,
+      dateFormat: "Y-m-d H:i",
+      minDate: "today",
+      maxDate: new Date().fp_incr(365),
+      locale: {
+        firstDayOfWeek: 1,
+        weekdays: {
+          shorthand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
+          longhand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
+        },
+        months: {
+          shorthand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+          longhand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+        },
+      },
+    }
+    async function onSubmitQuestion2(e) {
+      const value = {
+        displayName: document.getElementById('name2').value,
+        email: document.getElementById('email2').value,
+        phoneNumber: document.getElementById('phone2').value,
+        callingDate: new Date(Date.parse(document.getElementById('timeCallback2').value)),
+        question: document.getElementById('QA2').value,
+      }
+      const selectClinic = document.forms["email-form"]["field1"].value;
+      const selectSelectAddress = document.forms["email-form"]["field2"].value;
+      if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
+
+        document.getElementById('error-dialog').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
+      }
+      else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
+
+        document.getElementById('error-dialog').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
+      } else {
+        $('.submit-p2').remove()
+        $('#submit-form-2').append('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="loading"></span>')
+        $('#submit-form-2').attr('disabled', true)
+        await fetch(selectSelectAddress + '/public/api/guest-question/', {
+          method: 'post',
+          headers: new Headers({ 'content-type': 'application/json' }),
+          body: JSON.stringify(value)
+        }).then((response) => {
+          if (response.ok) {
+            $('#loading').remove()
+            $('#submit-form-2').append('<span>Gửi câu hỏi thành công</span>')
+            $('#submit-form-2').attr('disabled', true)
+            return response.json();
+          } else {
+            $('#submit-form-2').append('<span>Có lỗi xảy ra</span>')
+          }
+        })
+          .then((responseJson) => {
+            // Do something with the response
+          })
+          .catch((error) => {
+            $('#submit-form-2').append('<span>Có lỗi xảy ra</span>')
+          });
+      }
+    }
+
+    config = {
+      enableTime: true,
+      dateFormat: "Y-m-d H:i",
+      minDate: "today",
+      maxDate: new Date().fp_incr(365),
+      locale: {
+        firstDayOfWeek: 1,
+        weekdays: {
+          shorthand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
+          longhand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
+        },
+        months: {
+          shorthand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+          longhand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+        },
+      },
+    }
+    flatpickr("input[type = datetime-local]", config)
+    //Select Select Box
+    const selectbox = document.querySelector('#field');
+    //Select CMS Items
+    const clinics = document.querySelectorAll('.clinics');
+    //Create options and add them to the select box
+    clinics.forEach((el) => {
+      let option = document.createElement("option");
+      option.text = el.innerText;
+      option.value = el.innerText;
+      selectbox.add(option);
+    });
+    document.getElementById("submitButton").addEventListener("click", function (event) {
+      event.preventDefault()
+    });
+
+    function showForm() {
+      const element = document.getElementById("form-2-undisplay");
+      const element2 = document.getElementById("form-2-display");
+      element.classList.toggle("form-2-display");
+      scrollFunction()
+
+    }
+    function scrollFunction() {
+      var elmnt = document.getElementById("form-2-undisplay");
+      elmnt.scrollIntoView({ behavior: "smooth" });
+    }
+    function hideForm() {
+      const element = document.getElementById("form-2-undisplay");
+      element.classList.toggle("form-2-display");
+    }
+    function openNewTab() {
+      const selectClinic = document.forms["email-form"]["field1"].value;
+      const selectSelectAddress = document.forms["email-form"]["field2"].value;
+      if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
+        document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi sử dụng TelePrEP "
+        return false
+      }
+      else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
+        document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi sử dụng TelePrEP "
+        return false
+      }
+      else {
+        if (selectSelectAddress === "Phòng khám Biển Việt") {
+          window.open('https://demoprepclient.globits.net', '_blank')
+          // $('#success-message').toggleClass("success-message-2-display")
+          // $('#email-form').toggleClass("email-form-undisplay")
+          document.getElementById('notify-text').innerHTML = ""
+        } else if (selectSelectAddress === "Phòng khám Hà Đông") {
+          window.open('https://prepclient.globits.net', '_blank')
+          // $('#success-message').toggleClass("success-message-2-display")
+          // $('#email-form').toggleClass("email-form-undisplay")
+          document.getElementById('notify-text').innerHTML = ""
+        } else {
+          window.open('https://prepclient.globits.net', '_blank')
+          // $('#success-message').toggleClass("success-message-2-display")
+          // $('#email-form').toggleClass("email-form-undisplay")
+          document.getElementById('notify-text').innerHTML = ""
         }
 
-        config = {
-            enableTime: true,
-            dateFormat: "Y-m-d H:i",
-            minDate: "today",
-            maxDate: new Date().fp_incr(365),
-            locale: {
-                firstDayOfWeek: 1,
-                weekdays: {
-                    shorthand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-                    longhand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-                },
-                months: {
-                    shorthand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
-                    longhand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
-                },
-            },
-        }
-        async function onSubmitQuestion2(e) {
-            const value = {
-                displayName: document.getElementById('name2').value,
-                email: document.getElementById('email2').value,
-                phoneNumber: document.getElementById('phone2').value,
-                callingDate: new Date(Date.parse(document.getElementById('timeCallback2').value)),
-                question: document.getElementById('QA2').value,
-            }
-            const selectClinic = document.forms["email-form"]["field1"].value;
-            const selectSelectAddress = document.forms["email-form"]["field2"].value;
-            if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
-
-                document.getElementById('error-dialog').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
-            }
-            else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
-
-                document.getElementById('error-dialog').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi đặt câu hỏi "
-            } else {
-                $('.submit-p2').remove()
-                $('#submit-form-2').append('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="loading"></span>')
-                $('#submit-form-2').attr('disabled', true)
-                await fetch(selectSelectAddress + '/public/api/guest-question/', {
-                    method: 'post',
-                    headers: new Headers({ 'content-type': 'application/json' }),
-                    body: JSON.stringify(value)
-                }).then((response) => {
-                    if (response.ok) {
-                        $('#loading').remove()
-                        $('#submit-form-2').append('<span>Gửi câu hỏi thành công</span>')
-                        $('#submit-form-2').attr('disabled', true)
-                        return response.json();
-                    } else {
-                        $('#submit-form-2').append('<span>Có lỗi xảy ra</span>')
-                    }
-                })
-                    .then((responseJson) => {
-                        // Do something with the response
-                    })
-                    .catch((error) => {
-                        $('#submit-form-2').append('<span>Có lỗi xảy ra</span>')
-                    });
-            }
-        }
-
-        config = {
-            enableTime: true,
-            dateFormat: "Y-m-d H:i",
-            minDate: "today",
-            maxDate: new Date().fp_incr(365),
-            locale: {
-                firstDayOfWeek: 1,
-                weekdays: {
-                    shorthand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-                    longhand: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-                },
-                months: {
-                    shorthand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
-                    longhand: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
-                },
-            },
-        }
-        flatpickr("input[type = datetime-local]", config)
-        //Select Select Box
-        const selectbox = document.querySelector('#field');
-        //Select CMS Items
-        const clinics = document.querySelectorAll('.clinics');
-        //Create options and add them to the select box
-        clinics.forEach((el) => {
-            let option = document.createElement("option");
-            option.text = el.innerText;
-            option.value = el.innerText;
-            selectbox.add(option);
-        });
-        document.getElementById("submitButton").addEventListener("click", function (event) {
-            event.preventDefault()
-        });
-
-        function showForm() {
-            const element = document.getElementById("form-2-undisplay");
-            const element2 = document.getElementById("form-2-display");
-            element.classList.toggle("form-2-display");
-            scrollFunction()
-
-        }
-        function scrollFunction() {
-            var elmnt = document.getElementById("form-2-undisplay");
-            elmnt.scrollIntoView({ behavior: "smooth" });
-        }
-        function hideForm() {
-            const element = document.getElementById("form-2-undisplay");
-            element.classList.toggle("form-2-display");
-        }
-        function openNewTab() {
-            const selectClinic = document.forms["email-form"]["field1"].value;
-            const selectSelectAddress = document.forms["email-form"]["field2"].value;
-            if (selectClinic == "" || selectClinic == "Chọn cơ sở y tế") {
-                document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi sử dụng TelePrEP "
-                return false
-            }
-            else if (selectSelectAddress == "" || selectSelectAddress == "Chọn thành phố") {
-                document.getElementById('notify-text').innerHTML = "Vui lòng chọn tỉnh thành phố và cơ sở y tế trước khi sử dụng TelePrEP "
-                return false
-            }
-            else {
-                if (selectSelectAddress === "Phòng khám Biển Việt") {
-                    window.open('https://demoprepclient.globits.net', '_blank')
-                    // $('#success-message').toggleClass("success-message-2-display")
-                    // $('#email-form').toggleClass("email-form-undisplay")
-                    document.getElementById('notify-text').innerHTML = ""
-                } else if (selectSelectAddress === "Phòng khám Hà Đông") {
-                    window.open('https://prepclient.globits.net', '_blank')
-                    // $('#success-message').toggleClass("success-message-2-display")
-                    // $('#email-form').toggleClass("email-form-undisplay")
-                    document.getElementById('notify-text').innerHTML = ""
-                } else {
-                    window.open('https://prepclient.globits.net', '_blank')
-                    // $('#success-message').toggleClass("success-message-2-display")
-                    // $('#email-form').toggleClass("email-form-undisplay")
-                    document.getElementById('notify-text').innerHTML = ""
-                }
-
-            }
-        }
-        async function Populate(ss1, ss2) {
-            var s1 = document.getElementById(ss1)
-            var s2 = document.getElementById(ss2)
-            let optionArray = []
-            if (s1.value == "Chọn thành phố") {
-                optionArray = [{
-                    value: '',
-                    label: 'Chọn cơ sở y tế'
-                }]
-            }
-            if (s1.value == "hanoi") {
-                let dataFetch = []
-                await fetch('https://telehealthmanager.globits.net:8054/telehealthManager/public/clinics', {
-                    method: 'get',
-                }).then(response => response.json())
-                    .then(data => dataFetch = data)
-                    .then(() => {
-                        dataFetch.forEach((item) => {
-                            optionArray.push({
-                                value: item.url,
-                                label: item.name
-                            })
-                        })
-                    })
-                // var optionArray = ['""|Chọn cơ sở y tế', 'Phòng khám Biển Việt|Phòng khám Biển Việt', 'Phòng khám Hà Đông|Phòng khám Hà Đông']
-            }
-            else if (s1.value == "tphochiminh") {
-                optionArray = [{
-                    value: '',
-                    label: 'Chọn cơ sở y tế'
-                }]
-                // var optionArray = ['""|Chọn cơ sở y tế', 'Cơ sở y tế 4|Cơ sở y tế 4', 'Cơ sở y tế 5|Cơ sở y tế 5', 'Cơ sở y tế 6|Cơ sở y tế 6']
-            }
-            else if (s1.value == "dongnai") {
-                optionArray = [{
-                    value: '',
-                    label: 'Chọn cơ sở y tế'
-                }]
-                // var optionArray = ['""|Chọn cơ sở y tế', 'Cơ sở y tế 7|Cơ sở y tế 7', 'Cơ sở y tế 8|Cơ sở y tế 8', 'Cơ sở y tế 8|Cơ sở y tế 8']
-            }
-            $('#field2').find('option[value]').remove()
-            optionArray.forEach((item) => {
-                $('#field2').append(`
+      }
+    }
+    async function Populate(ss1, ss2) {
+      var s1 = document.getElementById(ss1)
+      var s2 = document.getElementById(ss2)
+      let optionArray = []
+      if (s1.value == "Chọn thành phố") {
+        optionArray = [{
+          value: '',
+          label: 'Chọn cơ sở y tế'
+        }]
+      }
+      if (s1.value == "hanoi") {
+        let dataFetch = []
+        await fetch('https://telehealthmanager.globits.net:8054/telehealthManager/public/clinics', {
+          method: 'get',
+        }).then(response => response.json())
+          .then(data => dataFetch = data)
+          .then(() => {
+            dataFetch.forEach((item) => {
+              optionArray.push({
+                value: item.url,
+                label: item.name
+              })
+            })
+          })
+        // var optionArray = ['""|Chọn cơ sở y tế', 'Phòng khám Biển Việt|Phòng khám Biển Việt', 'Phòng khám Hà Đông|Phòng khám Hà Đông']
+      }
+      else if (s1.value == "tphochiminh") {
+        optionArray = [{
+          value: '',
+          label: 'Chọn cơ sở y tế'
+        }]
+        // var optionArray = ['""|Chọn cơ sở y tế', 'Cơ sở y tế 4|Cơ sở y tế 4', 'Cơ sở y tế 5|Cơ sở y tế 5', 'Cơ sở y tế 6|Cơ sở y tế 6']
+      }
+      else if (s1.value == "dongnai") {
+        optionArray = [{
+          value: '',
+          label: 'Chọn cơ sở y tế'
+        }]
+        // var optionArray = ['""|Chọn cơ sở y tế', 'Cơ sở y tế 7|Cơ sở y tế 7', 'Cơ sở y tế 8|Cơ sở y tế 8', 'Cơ sở y tế 8|Cơ sở y tế 8']
+      }
+      $('#field2').find('option[value]').remove()
+      optionArray.forEach((item) => {
+        $('#field2').append(`
         <option value="${item.value}">
                                        ${item.label}
                                   </option>`);
 
-            })
-            // for (const option in optionArray) {
+      })
+      // for (const option in optionArray) {
 
-            // }
-        }
-        function scrollToForm(id) {
-            document.querySelector(id).scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" })
-        }
-    </script>
+      // }
+    }
+    function scrollToForm(id) {
+      document.querySelector(id).scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" })
+    }
+  </script> -->
+
 
 </body>
 
