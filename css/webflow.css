@@ -1635,10 +1635,16 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #3366ff;
+  background: linear-gradient(180deg, #0E9594 0%, #127475 100%);
   text-align: center;
   overflow: visible;
   min-width: 200px;
+}
+[data-nav-menu-open] .border-navbar{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+[data-nav-menu-open] .border-navbar:hover{
+  background-color: #0E9594;
 }
 .w--nav-link-open {
   display: block;
@@ -1682,7 +1688,7 @@ textarea.w-select {
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
