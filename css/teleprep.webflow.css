@@ -365,6 +365,7 @@ img {
   height: 80px;
   position: -webkit-fixed;
   position: fixed;
+  width: 100%;
   top: 0px;
   display: -webkit-box;
   display: -webkit-flex;
