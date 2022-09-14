@@ -365,9 +365,14 @@ img {
   height: 80px;
   position: -webkit-fixed;
   position: fixed;
+<<<<<<< HEAD
   top: 0;
   left: 0;
   width: 100%;
+=======
+  width: 100%;
+  top: 0px;
+>>>>>>> dae5273b91830eada96a4859692dc4c4ecce6583
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2464,7 +2469,7 @@ img {
   }
 
   .faq_wrapper {
-    padding-top: 120px;
+    margin-top: 18px;
   }
 
   .ask_form {
